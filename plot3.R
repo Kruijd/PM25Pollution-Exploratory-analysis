@@ -20,7 +20,7 @@ library(ggplot2)
           geom_line( size=1.2)+
           xlab("year") +
           ylab(expression("total PM"[2.5]*" emission"))+
-          ggtitle(expression("total PM"[2.5]*" emission"))
+          ggtitle(expression("total PM"[2.5]*" emission in Baltimore city"))
         
   #close device
       dev.off()
