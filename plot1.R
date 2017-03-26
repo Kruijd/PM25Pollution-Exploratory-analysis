@@ -18,7 +18,7 @@
   # Create plot
   barplot(YearTot$Emissions,YearTot$year,
         names.arg =YearTot$year,
-        main="total PM2.5 emission per year",
+        main="total PM2.5 emission per year in the United States ",
         xlab="Year",
         ylab = "Emission",
         col="red")
