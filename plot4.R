@@ -24,7 +24,7 @@ library(ggplot2)
           geom_bar(stat="identity",fill="red")+
           xlab("year") +
           ylab(expression("total PM"[2.5]*" emission"))+
-          ggtitle(expression("total PM"[2.5]*" emission"))
+          ggtitle(expression("total PM"[2.5]*" emission in US for coal combustion related sources"))
  
   #close device
         dev.off()
